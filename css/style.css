@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "DINPro";
+    src: url("../fonts/DINPro.woff2") format("woff2"), url("../fonts/DINPro.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: url("../fonts/DINPro-Black.woff2") format("woff2"), url("../fonts/DINPro-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: url("../fonts/DINPro-Italic.woff2") format("woff2"), url("../fonts/DINPro-Italic.woff2") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body{
+    font-family: "oswald", sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h2{
+    font-family: "dinpro", sans-serif;
+    text-decoration: underline;
+}
+
+.text{
+    font-family: "dinpro", sans-serif;
+}
+
+.text-bold{
+    font-weight: 700;
+    color: brown;
+}
+
+.text-italic{
+    font-size: 25px;
+    font-family: "dinpro", sans-serif;
+    font-style: italic;
+    color: chocolate;
+    line-height: 1.5;
+    text-shadow: 3px 2px 4px chartreuse;
+}
+a{
+    color: darkblue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+a.text-blue{
+    font-style: italic;
+}
+
+#any{
+    font-family: "dinpro", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 25px;
+}
+
+.next-news-1{
+    color: darkgray;
+    text-transform: capitalize;
+}
+.next-news-2{
+    color: darkred;
+    font-weight: 700;
+}
+
+.next-news-3{
+    color: darkviolet;
+    text-align: right;
+}
+.next-news-4{
+    color: gold;
+}
